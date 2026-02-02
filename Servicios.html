@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+<meta charset="utf-8" />
+<title>Latrus Corporation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="main.css" />
+<link rel="stylesheet" href="blueberry.css" />
+
+<style type="text/css"> 
+</style> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script> 
+<script src = "jquery.dropScript.js"></script>
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+</head>
+<body>
+	<header>
+		<a href="index.html" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a href="index.html" >Inicio</a></li>
+				<li><a href="Empresa.html">Empresa</a></li>
+				<li>
+				<div class="dropdown">
+				<button  onclick = "location.href= 'Productos.html'" class="dropbtn">Products</button> <!--onclick="myFunction()" -->
+					<div id="elDropdown" class="dropdown-content">
+					<a href="Lofa.html">Lofa</a>
+					<a href="Nacd.html">Nacd</a>
+					<a href="Powerstax.html">Powerstax</a>
+					<a href="Dfx.html">DFX</a>
+					<a href="Ecom.html">Ecom</a>
+					<a href="Goodway.html">Goodway</a>
+					<a href="Bedia.html">Bedia</a>
+					<a href="Laval.html">Laval</a>
+					</div>
+				</div>
+				</li>
+				<li><a href="Servicios.html" class="current">Servicios</a></li>
+				
+				<li><a href="Contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="doc">
+		<div id="content">
+			<div class="blueberry">
+				<ul class="slides">
+					<li><img src="images/AmericanFlag1.jpg" /></li>
+					<li><img src="images/engine1.jpg" /></li>
+					<li><img src="images/circuitboard.jpg" /></li>
+					<li><img src="images/binary.jpg" /></li> 
+					<li><img src="images/iotArt.png" /></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<section>
+		<img src="images/ventas_s.png" />
+		<h1>Venta Directa</h1>
+		<p>Nuestra oficina de ventas esta en California, USA;  trabajamos directamente con empresas en diferentes ciudades de Estados Unidos.   Solo un pequeño porcentaje de fabricas Americanas exportan, y las empresas pequeñas con quienes trabajamos proveen productos de calidad.  Muchas empresas Americanas no exportan por problemas de idioma, cultura, pago, distancia, etc.  En Latino America nuestros clientes usualmente incluyen distribuidores, OEMs, o empresas de consultoria tecnica.
+	</section>
+	<section>
+		<img src="images/asistencia_s.png" />
+		<h1>Asistencia Tecnica</h1>
+		<p>Trabajamos directamente con los tecnicos de fabricas Americanas, lo cual da confianza y reduce demoras en respuestas a comparasion de muchos de sus distribuidores regionales.  Hemos tenido mucho exito en trabajar con los ingenieros de los suplidores directamente y asi solucionar problemas mas rapidamente.  Entendemos que muchas veces sus tecnicos estan con el equipo en lugares remotos, gracias a los telefonos celulares, email, y skype ahora podemos comunicarnos con ellos mas rapidamente.  
+	</section>
+		<section>
+		<img src="images/logistica_s.png" />
+		<h1>Apoyo Logistico</h1>
+		<p>Usamos nuestra cuenta de DHL y transportadores en Miami para hacer envios, o podemos usar el transportador que usted escoja. DHL nos ofrece tarifas muy competitivas y nosotros transferimos esos ahorros a nuestros clientes.  Si la mercancia llega a nuestra oficina, nosotros podemos abrir las cajas, tomar fotos, y mandarselas para que usted pueda confirmar si es lo que necesita.  En varias oportunidades esto ha reducido demoras en los proyectos de nuestros clientes. 
+		Uno de los miedos en importar es el no saber si usted recibira la mercancia, nosotros queremos ganar su confianza y hacerles ahorrar en el futuro.  Los clientes que tenemos no los perdemos, y ellos saben que pueden contar con nosotros.    
+	</section>
+	<div class="clear"></div>
+	<div class="clear"></div>
+	<section>
+		<h1>Representaciones</h1>
+		<img src="images/representaciones.png" />
+		<p>Fábrica en Georgia.  Tableros de control para motores diesel y a gas en maquinaria fuera de carretera.</p>
+	</section>
+	<section>
+		<h1>A su Servicio</h1>
+		<img src="images/asistencia1.jpg" />
+		<p>Apoyo via telefono, email, y Skype</p>
+	</section>
+	<section>
+		<h1>Por Mar, Tierra, o Aire</h1>
+		<img src="images/logistica1.jpg" />
+		<p>Usando nuestras transportadores o los suyos.  </p>
+	</section>
+	<footer>
+		<section>
+			<h3><b>Latrus Corporation</b></h3>
+			<p><b>408-348-2369</b><br><br>
+			1476 Kiner Ave.<br>
+			San Jose, CA 95125<br>
+			United States</p>
+		</section>
+		<section>
+			<h3>Contactenos</h3>
+			<ul class="social">
+				<li><a href="https://www.facebook.com/latrus/"><img src="images/facebook.png"/></a></li>
+				<li><a href="skype:latruscorp?chat" onclick="Skype.tryAnalyzeSkypeUri('chat', '0');" ><img  src="images/skype.png" ></a></li>
+			<!--	<li><a href="#"><img src="images/googleplus.png" /></a></li> -->
+				<li><a href="https://twitter.com/latruscorp"><img src="images/twitter.png"></a></li>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+				<li><a href="https://www.youtube.com/channel/UCrrHtqx0nfP2ufKsv8olKTA"><img src="images/youtube.png"></a></li>
+			</ul>
+			<a href="terminosdeventa.html" class="current"><h3>Terminos de Venta</h3></a>
+		</section>
+		<section>
+				<img src="images/logolatrusbottom.png" />
+				<p>Su contacto de confianza</p>
+		</section>
+	</footer>
+	<footer class="second">
+		<p>Copyright - Latrus, 2017</p>
+	</footer>
+		
+</body>
+</html>
