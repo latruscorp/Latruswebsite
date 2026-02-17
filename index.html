@@ -111,15 +111,7 @@ $(window).load(function() {
 			<p>Fabrica en Georgia, USA.  Analyzadores de emisión para motores y calderas.</p>
 		</section>
 	-->
-<div id="qrcode"></div>
 
-<script>
-  new QRCode(document.getElementById("qrcode"), {
-    text: "https://latrus.us",
-    width: 180,
-    height: 180
-  });
-</script>
 <!-- Load the QR library (local file in your repo) -->
 <script src="qr/qrcode.min.js"></script>
 
@@ -171,8 +163,17 @@ $(window).load(function() {
 
   // Optional: generate a default QR on load
   renderQR(window.location.href);
-</script>
+</script 
+<!-- qr code -->
+<div id="qrcode"></div>
 
+<script>
+  new QRCode(document.getElementById("qrcode"), {
+    text: "https://latrus.us",
+    width: 180,
+    height: 180
+  });
+</script>
 
 		
 	</div>
