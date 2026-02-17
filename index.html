@@ -12,6 +12,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <script src="jquery.blueberry.js"></script>
 <script src="jquery.dropScript.js"></script>
+<script src="qr/qrcode.min.js"></script>
 <script>
 $(window).load(function() {
 	$('.blueberry').blueberry();
@@ -110,6 +111,15 @@ $(window).load(function() {
 			<p>Fabrica en Georgia, USA.  Analyzadores de emisión para motores y calderas.</p>
 		</section>
 	-->
+<div id="qrcode"></div>
+
+<script>
+  new QRCode(document.getElementById("qrcode"), {
+    text: "https://latrus.us",
+    width: 180,
+    height: 180
+  });
+</script>
 
 	</div>
 	<footer>
